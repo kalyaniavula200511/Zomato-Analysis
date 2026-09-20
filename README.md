@@ -1,90 +1,131 @@
-
-# 🍽️ Zomato Data Analysis
+# 🍽️ Zomato Data Analysis & Power BI Dashboard
 
 ## 📌 Project Overview
 
-This project focuses on analyzing Zomato restaurant data using Python to discover useful patterns, trends, and business insights.
+This project focuses on analyzing Zomato restaurant data using **Python, SQL, and Power BI** to identify meaningful trends, customer preferences, restaurant performance, and business insights.
 
-The analysis includes data cleaning, exploratory data analysis (EDA), and data visualization to understand restaurant ratings, pricing, restaurant types, locations, and customer preferences.
+The project follows a complete data analysis workflow, starting with data cleaning and exploration using Python, performing data analysis and extracting insights using SQL, and finally creating an interactive dashboard in Power BI.
 
-## 🎯 Objectives
+## 🎯 Project Objectives
 
-* Clean and preprocess the Zomato dataset
-* Perform exploratory data analysis
+* Clean and preprocess Zomato restaurant data
+* Perform exploratory data analysis using Python
+* Analyze restaurant data using SQL queries
+* Identify important business trends and patterns
 * Analyze restaurant ratings and pricing
-* Identify popular restaurant types
 * Understand customer preferences
-* Analyze online ordering and table booking
-* Create meaningful data visualizations
-* Generate useful business insights
+* Analyze online ordering and table booking availability
+* Create an interactive Power BI dashboard
+* Present data-driven business insights
 
-## 🛠️ Technologies Used
+## 🛠️ Tools & Technologies
 
 * **Python**
-* **Pandas**
-* **NumPy**
-* **Matplotlib**
-* **Seaborn**
-* **Jupyter Notebook**
 
-## 📊 Analysis Performed
+  * Pandas
+  * NumPy
+  * Matplotlib
+  * Seaborn
+* **SQL**
+
+  * SELECT
+  * WHERE
+  * GROUP BY
+  * ORDER BY
+  * HAVING
+  * Aggregate Functions
+  * JOINs
+* **Power BI**
+
+  * Data Transformation
+  * Data Modeling
+  * DAX
+  * Interactive Visualizations
+  * Dashboard Creation
+
+## 🔄 Project Workflow
+
+### 1. Python – Data Cleaning & EDA
+
+Python was used to clean and prepare the Zomato dataset. Missing values, duplicate records, and inconsistent data were handled before performing exploratory data analysis.
+
+Pandas and NumPy were used for data manipulation, while Matplotlib and Seaborn were used to visualize patterns and trends.
+
+### 2. SQL – Data Analysis
+
+SQL was used to analyze the cleaned dataset and answer business-related questions.
+
+Examples of analysis include:
+
+* Restaurant count by location
+* Average restaurant ratings
+* Average cost for two
+* Popular restaurant types
+* Online ordering availability
+* Table booking availability
+* Rating-based restaurant analysis
+
+### 3. Power BI – Dashboard & Visualization
+
+Power BI was used to create an interactive dashboard to present the analysis in an easy-to-understand format.
+
+The dashboard includes KPIs, charts, filters, and visualizations to help users explore restaurant trends and customer preferences.
+
+## 📊 Key Analysis
 
 The project analyzes:
 
 * Restaurant ratings
-* Approximate cost for two people
 * Restaurant types
 * Restaurant locations
-* Online ordering availability
-* Table booking availability
+* Average cost for two
+* Online ordering
+* Table booking
 * Customer preferences
-* Rating and pricing patterns
+* Restaurant distribution
+* Rating patterns
+* Pricing trends
 
-## 📈 Visualizations
+## 💡 Business Insights
 
-Different charts and graphs were created to understand the data, including:
+The analysis helps identify patterns in restaurant ratings, pricing, restaurant categories, locations, and customer preferences.
 
-* Bar Charts
-* Pie Charts
-* Count Plots
-* Distribution Plots
-* Correlation Analysis
-
-## 💡 Key Insights
-
-The analysis helps identify restaurant trends, customer preferences, pricing patterns, rating distributions, and the relationship between different restaurant features.
-
-These insights can help businesses better understand their customers and make data-driven decisions.
+These insights can support businesses in understanding restaurant performance, customer behavior, and market trends for better data-driven decision-making.
 
 ## 📁 Project Structure
 
 ```text
 Zomato-Analysis/
 │
-├── Zomato_Analysis.ipynb
-├── zomato.csv
-├── README.md
-└── images/
+├── Python/
+│   └── Zomato_Analysis.ipynb
+│
+├── SQL/
+│   └── Zomato_Analysis.sql
+│
+├── PowerBI/
+│   └── Zomato_Dashboard.pbix
+│
+├── Dataset/
+│   └── zomato.csv
+│
+└── README.md
 ```
 
-## 🚀 How to Run the Project
+## 🚀 Skills Demonstrated
 
-1. Clone this repository.
-2. Download or open the dataset.
-3. Open `Zomato_Analysis.ipynb` using Jupyter Notebook or Google Colab.
-4. Install the required Python libraries.
-5. Run the notebook cells to perform the analysis.
-
-## 👩‍💻 Skills Demonstrated
-
-* Data Cleaning
-* Data Preprocessing
+* Python Data Analysis
+* Data Cleaning & Preprocessing
 * Exploratory Data Analysis
+* SQL Querying
+* Data Transformation
+* Power BI Dashboard Development
 * Data Visualization
-* Python Programming
 * Business Insights
-* Problem Solving
+* Analytical Problem Solving
 
 ## 📌 Conclusion
 
-This project demonstrates how Python
+This project demonstrates my ability to work with data throughout the complete analytics process, from **data cleaning and analysis using Python and SQL to creating interactive dashboards using Power BI**.
+
+It helped me develop practical skills in data analysis, visualization, SQL querying, and converting raw data into meaningful business insights.
